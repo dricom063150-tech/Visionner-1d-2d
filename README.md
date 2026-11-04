@@ -21,3 +21,10 @@ Télécharger le fichier HTML voulu depuis son sous-dossier, puis l'ouvrir dans 
 
 ## Avertissement
 La détection des références du PDF dans l'édition locale est expérimentale et dépend de la structure interne des PDF. Tester sur des documents représentatifs avant emploi.
+
+
+## [Version complète locale](version-complete-locale/)
+- **V5.8.4**, même socle métier que la V5.8.3, mais bibliothèques PDF.js, Worker PDF.js et SheetJS enregistrées dans `version-complete-locale/libs/`.
+- **Aucun CDN et aucune connexion Internet nécessaires pour obtenir les bibliothèques** ; copie de l'ensemble du dossier requise.
+- **Statut : publiée, non encore validée en navigateur hors ligne** ; attention aux éventuelles restrictions du Worker PDF sous `file://`.
+- Contient son [README](version-complete-locale/README.md) et son [prompt](version-complete-locale/PROMPT.md).
