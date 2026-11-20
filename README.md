@@ -11,6 +11,7 @@ Deux éditions de l'application de gestion de schémas, nomenclatures, fonctions
 ## [Version complète](version-complete/)
 - V5.8.3, application HTML interactive : PDF.js, SheetJS, nomenclature éditable, fonctions, allocations, lasso et panneaux flottants.
 - **Dépendance réseau :** PDF.js et SheetJS sont chargés depuis des CDN au démarrage ; les données métier restent dans le navigateur.
+- **V6** (dernière version) : détection des repères sur les schémas issus de CAO (texte fragmenté, lettres espacées, texte vertical), en plus des fonctions de la V5.8.6 (surbrillance par attribut, export PDF surligné). Voir le [README de la version complète](version-complete/README.md).
 
 ## Utilisation
 Télécharger le fichier HTML voulu depuis son sous-dossier, puis l'ouvrir dans Edge ou Chrome. Les deux éditions n'envoient pas de données métier à un serveur applicatif.
