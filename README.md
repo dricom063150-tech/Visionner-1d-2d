@@ -25,6 +25,7 @@ La détection des références du PDF dans l'édition locale est expérimentale 
 
 
 ## [Version complète locale](version-complete-locale/)
+- **V6 locale — recommandée pour les données sensibles** : [un seul fichier HTML](version-complete-locale/Editeur_Nomenclature_Fonctions_V6_local.html), bibliothèques intégrées, connexions réseau bloquées par une politique de sécurité (CSP). Testée hors ligne sous Chromium : aucune requête réseau. Détails dans le [README](version-complete-locale/README.md).
 - **V5.8.4**, même socle métier que la V5.8.3, mais bibliothèques PDF.js, Worker PDF.js et SheetJS enregistrées dans `version-complete-locale/libs/`.
 - **Aucun CDN et aucune connexion Internet nécessaires pour obtenir les bibliothèques** ; copie de l'ensemble du dossier requise.
 - **Statut : publiée, non encore validée en navigateur hors ligne** ; attention aux éventuelles restrictions du Worker PDF sous `file://`.
